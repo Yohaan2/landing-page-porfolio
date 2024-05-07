@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation"
 const Introduction = () => {
   return (
     <div className='z-20 w-full bg-darkBg/40'>
-      <div className='z-20 grid items-center h-full p-40 py-20 md:py-20 md:grid-cols-2'>
+      <div className='z-20 grid items-center h-full p-6 py-20 md:p-40 md:py-0 md:grid-cols-2'>
         <Image 
           src='/foto-perfil.jpg' 
           priority 
@@ -17,7 +17,7 @@ const Introduction = () => {
           />
 
           <div className='flex flex-col justify-center max-w-md'>
-            <h1 className='mg-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10'>
+            <h1 className='mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10'>
               <TypeAnimation
                 sequence={[
                   'Hola! Soy Yohan Garcia!',
@@ -35,8 +35,8 @@ const Introduction = () => {
 
               </TypeAnimation>
             </h1>
-            <p className='mx-auto mb-2 text-xl md:mx-0 md:mb-8'>
-              Especialista en desarrollo web con experiencia en tecnologías front-end y back-end, incluyendo JavaScript, Typescript, React, NextJS, Node.js, NestJs y MongoDB. Apasionado por crear experiencias digitales intuitivas y centradas en el usuario. Busco oportunidades para colaborar en proyectos desafiantes y dinámicos en el campo del desarrollo web.
+            <p className='mx-auto mb-2text-xl md:text-xl md:mx-0 md:mb-8'>
+              Especialista en desarrollo web con experiencia en tecnologías front-end y back-end, incluyendo JavaScript, Typescript, React, NextJS, Node.js, NestJs y MongoDB. Busco oportunidades para colaborar en proyectos desafiantes y dinámicos en el campo del desarrollo web.
             </p>
             <div className='flex items-center justify-center gap-3 md:justify-start md:gap-10'>
               <Link 
