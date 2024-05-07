@@ -5,15 +5,13 @@ import React from 'react'
 interface PortfolioBoxProps {
   data: {
     title: string,
-    description: string,
     image: string,
-    link: string,
     urlGithub: string,
     urlDemo: string,
   }
 }
 const PortfolioBox = ({ data }: PortfolioBoxProps) => {
-  const { title, description, image, link, urlGithub, urlDemo } = data;
+  const { title, image, urlGithub, urlDemo } = data;
   return (
     <div className='p-4 border border-teal-50 rounded-xl'>
       <h1 className='mb-4 text-xl'>
