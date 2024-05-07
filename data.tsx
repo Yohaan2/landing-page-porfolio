@@ -14,7 +14,7 @@ export const socialNetworks = [
     {
         id: 3,
         logo: <Download size={35} strokeWidth={1.5} />,
-        src: "https://github.com/Yohaan2",
+        src: "/CV-Yohan.pdf",
     },
 ];
 
