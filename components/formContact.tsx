@@ -75,7 +75,7 @@ const FormContact = () => {
 
         <button type="submit" className={`text-white bg-blue-700  ${progress === status.INIT || progress === status.SENDING ? '': 'hover:bg-blue-800'} focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center`} disabled={ progress === status.INIT || progress === status.SENDING }>{progress === status.SENDING ? 'Sending...' : 'Submit'}</button>
 
-        <p className='text-center  font-bold mt-5'>O puedes contactar conmigo en {' '}
+        <p className='text-center  font-bold mt-5'>O puedes escribirme direcatemente {' '}
           <CopyToClipboard text="garciayohan57@gmail.com" onCopy={() => toast.success('Copied to clipboard')}>
             <span className='text-secondary cursor-pointer'>
               garciayohan57@gmail.com

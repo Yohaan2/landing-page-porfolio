@@ -15,12 +15,12 @@ const Carrusel = () => {
 
       <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
             <motion.div
-                className="flex"
+                className="flex items-center justify-center md:justify-start gap-5" 
                 animate={{
                     x: ['0%', '-100%'],
                     transition: {
                         ease: 'linear',
-                        duration: 25,
+                        duration: 15,
                         repeat: Infinity,
                     }
                 }}

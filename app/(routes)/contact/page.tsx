@@ -8,7 +8,7 @@ const ContactPage = () => {
     <>
     <TransitionPage />
     <ContainerPage>
-        <FormContact />
+      <FormContact />
     </ContainerPage>
     </>
   )
