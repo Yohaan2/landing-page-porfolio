@@ -1,3 +1,4 @@
+import Carrusel from '@/components/carrusel'
 import ContainerPage from '@/components/container'
 import CounterServices from '@/components/counter-services'
 import TimeLine from '@/components/time-line'
@@ -14,6 +15,7 @@ const AboutMe = () => {
           <span className='font-bold text-secondary'>Trayectoria Profesional</span>
         </h1>
         <CounterServices />
+        <Carrusel />
         <TimeLine />
         </div>
       </ContainerPage>

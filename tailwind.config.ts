@@ -16,6 +16,15 @@ const config: Config = {
         "gradient-cover":
           "linear-gradient(90.21deg, rgba(80,249,244,0.5) -5.91%, rgba(59,230,59, 0.5) 111.58%)"
       },
+      animation: {
+        "infinite-scroll": "infinite-scroll 25s linear infinite"
+      },
+      keyframes: {
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" }
+        }
+      }
     },
   },
   plugins: [],

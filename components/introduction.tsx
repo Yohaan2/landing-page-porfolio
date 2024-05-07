@@ -36,7 +36,7 @@ const Introduction = () => {
               </TypeAnimation>
             </h1>
             <p className='mx-auto mb-2 text-xl md:mx-0 md:mb-8'>
-              Soy Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste inventore delectus dolor repellat facilis pariatur ullam consectetur sint dolore. Sunt accusantium amet earum voluptatibus necessitatibus? Excepturi amet mollitia illo!
+              Especialista en desarrollo web con experiencia en tecnologías front-end y back-end, incluyendo JavaScript, Typescript, React, NextJS, Node.js, NestJs y MongoDB. Apasionado por crear experiencias digitales intuitivas y centradas en el usuario. Busco oportunidades para colaborar en proyectos desafiantes y dinámicos en el campo del desarrollo web.
             </p>
             <div className='flex items-center justify-center gap-3 md:justify-start md:gap-10'>
               <Link 

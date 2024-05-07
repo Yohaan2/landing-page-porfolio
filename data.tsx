@@ -117,3 +117,42 @@ export const dataPortfolio = [
         urlDemo: "#!",
     }
 ];
+
+export const tecnologiasLogo = [
+    {
+        id: 1,
+        src: '/JavaScript-logo.png',
+    },
+    {
+        id: 2,
+        src: '/Typescript-logo.png',
+    },
+    {
+        id: 3,
+        src: '/react-logo.png',
+    },
+    {
+        id: 4,
+        src: '/Tailwind-CSS-logo.png',
+    },
+    {
+        id: 5,
+        src: '/NestJS-logo.png',
+    },
+    {
+        id: 6,
+        src: '/fastify-logo.png',
+    },
+    {
+        id: 7,
+        src: '/mongodb-logo.png',
+    },
+    {
+        id: 8,
+        src: '/Postgresql-logo.png',
+    },
+    {
+        id: 9,
+        src: '/docker-logo.png',
+    },
+]
