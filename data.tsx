@@ -120,47 +120,36 @@ export const dataPortfolio = [
 
 export const tecnologiasLogo = [
     {
-        id: 1,
         src: '/JavaScript-logo.webp',
     },
     {
-        id: 2,
         src: '/Typescript-logo.webp',
     },
     {
-        id: 3,
         src: '/react-logo.webp',
     },
     {
-        id: 4,
         src: '/Tailwind-CSS-logo.webp',
     },
     {
-        id: 5,
         src: '/NestJS-logo.webp',
     },
     {
-        id: 6,
         src: '/fastify-logo.webp',
     },
     {
-        id: 7,
         src: '/mongodb-logo.webp',
     },
     {
-        id: 8,
         src: '/Postgresql-logo.webp',
     },
     {
-        id: 9,
         src: '/docker-logo.webp',
     },
     {
-        id: 10,
         src: '/Nextjs-logo.webp',
     },
     {
-        id: 11,
         src: '/Nodejs-logo.webp',
     }
 ]

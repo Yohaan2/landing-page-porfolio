@@ -8,6 +8,7 @@ import { motion } from 'framer-motion';
 const Carrusel = () => {
 
   const carruselTecnologias = [ ...tecnologiasLogo, ...tecnologiasLogo]
+  const totalSlides = carruselTecnologias.length;
   
   return (
     <div className='container mt-5'>
@@ -15,15 +16,15 @@ const Carrusel = () => {
 
       <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
             <motion.div
-                className="flex items-center justify-center md:justify-start gap-5" 
-                animate={{
-                    x: ['0%', '-100%'],
-                    transition: {
-                        ease: 'linear',
-                        duration: 15,
-                        repeat: Infinity,
-                    }
-                }}
+              className="flex items-center justify-center md:justify-start gap-5" 
+              animate={{
+                x: ['0%', '-100%'],
+                transition: {
+                    ease: 'linear',
+                    duration: 25,
+                    repeat: Infinity,
+                }
+              }}
             >
                   {carruselTecnologias.map((slide, index) => (
                       <div key={index} className="flex-shrink-0" style={{ width: `${100 / tecnologiasLogo.length}%` }}>
@@ -32,35 +33,6 @@ const Carrusel = () => {
                   ))}
             </motion.div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-      {/* <div className='w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]'>
-
-        <div className='flex items-center justify-center md:justify-start animate-infinite-scroll gap-5'>
-
-          {carruselTecnologias.map((item, index) => (
-              <Image 
-              key={index}
-                src={item.src} 
-                alt='techs'
-                width={120}
-                height={120}
-                className='object-cover object-center rounded-lg'
-              />
-            ))}
-        </div>
-      </div> */}
     </div>
   )
 }
