@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation"
 
 const Introduction = () => {
   return (
-    <div className='z-20 pb-52 w-full bg-darkBg/40'>
+    <div className='pb-40 z-20 w-full bg-darkBg/40 md:pb-0'>
       <div className='z-20 grid items-center h-full p-6 pt-40 md:p-40 md:py-0 md:grid-cols-2'>
         <Image 
           src='/foto-perfil.webp' 
