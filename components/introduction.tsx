@@ -8,7 +8,7 @@ const Introduction = () => {
     <div className='z-20 pb-52 w-full bg-darkBg/40'>
       <div className='z-20 grid items-center h-full p-6 pt-40 md:p-40 md:py-0 md:grid-cols-2'>
         <Image 
-          src='/foto-perfil.jpg' 
+          src='/foto-perfil.webp' 
           priority 
           width={400} 
           height={400} 
