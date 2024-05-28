@@ -93,7 +93,7 @@ export const dataPortfolio = [
         title: "Chat in Real-time",
         image: "/chat.png",
         urlGithub: "https://github.com/Yohaan2/chat-client",
-        urlDemo: "https://yohan-garcia.netlify.app",
+        urlDemo: "https://chat-yohan.netlify.app",
     },
     {
         id: 2,
