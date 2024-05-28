@@ -90,10 +90,10 @@ export const dataCounter = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Chat in Real-time",
+        image: "/chat.png",
+        urlGithub: "https://github.com/Yohaan2/chat-client",
+        urlDemo: "https://yohan-garcia.netlify.app",
     },
     {
         id: 2,
